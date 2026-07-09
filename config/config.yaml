@@ -99,6 +99,7 @@ platforms:
     - id: "zhihu"
       name: "知乎"
       expected_domain: "zhihu.com"
+      
 
 
 
@@ -118,7 +119,7 @@ rss:
   freshness_filter:
     enabled: true                     # 是否启用新鲜度过滤（true=启用, false=关闭）
 
-    max_age_days: 1                   # 最大文章年龄（天）
+    max_age_days: 7                   # 最大文章年龄（天）
                                       # - 正整数：只推送 N 天内的文章
                                       # - 0：禁用过滤，推送所有文章
 
@@ -140,6 +141,14 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
+
+    - id: "aijx"
+      name: "AI HOT — 精选"
+      url: "https://aihot.virxact.com/feed.xml"
+
+    - id: "aiqb"
+      name: "AI HOT — 全部 AI 动态"
+      url: "https://aihot.virxact.com/feed/all.xml"
 
     # 自定义源示例
     # - id: "custom-feed"
