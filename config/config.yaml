@@ -150,6 +150,26 @@ rss:
       name: "AI HOT — 全部 AI 动态"
       url: "https://aihot.virxact.com/feed/all.xml"
 
+    - id: "people-politics"
+      name: "人民网 - 时政"
+      url: "http://www.people.com.cn/rss/politics.xml"
+
+    - id: "people-finance"
+      name: "人民网 - 财经"
+      url: "http://www.people.com.cn/rss/finance.xml"
+
+    - id: "people-society"
+      name: "人民网 - 社会"
+      url: "http://www.people.com.cn/rss/society.xml"
+
+    - id: "people-world"
+      name: "人民网 - 国际"
+      url: "http://www.people.com.cn/rss/world.xml"
+
+    - id: "people-opinion"
+      name: "人民网 - 评论"
+      url: "http://www.people.com.cn/rss/opinion.xml"
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
