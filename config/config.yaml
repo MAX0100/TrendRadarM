@@ -170,6 +170,26 @@ rss:
       name: "人民网 - 评论"
       url: "http://www.people.com.cn/rss/opinion.xml"
 
+    - id: "hbr"
+      name: "哈佛商业评论"
+      url: "https://supsub.net/feed/public/0abe9ac4/rss"
+
+    - id: "wasi"
+      name: "瓦斯阅读 - 热门微信"
+      url: "https://rss.aishort.top/?type=wasi"
+
+    - id: "kxlyb"
+      name: "科学流言榜"
+      url: "https://quanwenrss.com/cdstm/kxlyb"
+
+    - id: "morganstanley-cn"
+      name: "摩根士丹利中国 - 观点与洞察"
+      url: "https://quanwenrss.com/morganstanley/china"
+
+    - id: "bloomberg-cn"
+      name: "Bloomberg 中文"
+      url: "https://quanwenrss.com/bloomberg-cn"
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
